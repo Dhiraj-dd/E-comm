@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+.nav-bar li{
+  display: inline-block;
+  padding: 10px;
+  background-color: aqua;
+}
+.login{
+  color:red;
+  background-image: url("/bg image.jpeg");
+ 
+  
+
+}
+.login input{
+  border: 2px solid rgb(119, 57, 57);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.list{
+  text-align: center;
+ margin-top: 0px;
+ 
+}
+.list{
+  background-image: url("./logo.svg");
+}
+.list ul li {
+display: inline-block;
+border: 1px solid blue;
+padding: 15px;
+width: 69px;
+margin-left: 2px;
+}
+.list ul{
+ margin: 0; 
+}
+.product{
+  background-color: #e5e9ea;
+}
+.product ul li{
+display: inline-block;
+border: 1px solid gray;
+margin-left: 0;
+margin-right: 0;
+}
+.link  li{
+  display: inline-block;
+background-color: #61dafb;
+padding: 15px;
+color: black;
+
+}
+.addproduct input{
+  border: 2px solid navy;
+}
+.addproduct button{
+  background-color: rgb(169, 169, 195);
+}
+.addproduct{
+  background-image: url("./pexels-egil-sjøholt-1906658.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
