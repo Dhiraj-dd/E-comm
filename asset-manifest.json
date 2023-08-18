@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/e-comm/static/css/main.674ae629.css",
+    "main.js": "/e-comm/static/js/main.5fe88d41.js",
+    "static/js/787.633816a4.chunk.js": "/e-comm/static/js/787.633816a4.chunk.js",
+    "static/media/pexels-egil-sjøholt-1906658.jpg": "/e-comm/static/media/pexels-egil-sjøholt-1906658.29670cc0db02e7f5d78c.jpg",
+    "static/media/iphone-14.jpeg": "/e-comm/static/media/iphone-14.e9ce3d9c4e666f62c2cf.jpeg",
+    "static/media/iris.jpg": "/e-comm/static/media/iris.c777e5e17012aa105af7.jpg",
+    "static/media/S22.webp": "/e-comm/static/media/S22.6c0d7c5ef811c68d7746.webp",
+    "static/media/logo.svg": "/e-comm/static/media/logo.6ce24c58023cc2f8fd88.svg",
+    "index.html": "/e-comm/index.html",
+    "main.674ae629.css.map": "/e-comm/static/css/main.674ae629.css.map",
+    "main.5fe88d41.js.map": "/e-comm/static/js/main.5fe88d41.js.map",
+    "787.633816a4.chunk.js.map": "/e-comm/static/js/787.633816a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.674ae629.css",
+    "static/js/main.5fe88d41.js"
+  ]
+}
