@@ -7,7 +7,7 @@ function Iphone() {
   return (
     <div>
      <h3>14 pro max</h3>
-        <img src={iphone} alt='iphone.14' width={600} height={400}></img>
+        <img src={iphone} alt='' width={600} height={400} ></img>
         <h2>specification</h2>
         <ul>
             <li>    ram : 8gb</li>

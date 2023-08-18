@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Puma() {
   return (
     <div>
-      <img src={shoes3}  width={500} height={300}></img>
+      <img src={shoes3}  width={500} height={300} alt=''></img>
       <h3> Puma </h3>
       <h2>specification</h2>
         <ul>

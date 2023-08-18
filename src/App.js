@@ -22,12 +22,13 @@ import Puma from './Profiledetail/Puma';
 import Adidas from './Profiledetail/Adidas';
 import Clothing from './Products/Clothing';
 import Formal from './Profiledetail/Formal';
-import Casual from './Profiledetail/Casual'
+import Casual from './Profiledetail/Casual';
+import Signout from './routerdata/Signout';
 function App() {
 
   return (
     <div className="App">
-    <BrowserRouter basename='MY-PROJECT'>
+    <BrowserRouter basename='react-app'>
     <Header/>
 <Routes>
 <Route element={<Hide/>} >
@@ -51,10 +52,10 @@ function App() {
 <Route path='product' element={<Product/>}/>
 <Route path='/delete' element={<Delete/>}/>
 <Route path='logout' element={<Logout/>}/>
-<Route path='signout' element={<Logout/>}/>
 </Route>
 <Route path='login' element={<Login/>}/>
 
+<Route path='signout' element={<Signout/>}/>
 
 </Routes>
     </BrowserRouter>

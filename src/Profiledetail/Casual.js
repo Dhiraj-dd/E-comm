@@ -3,7 +3,7 @@ import cloth3 from './cloth3.jpeg'
 function Casual() {
   return (
     <div>
-        <img src={cloth3}  width={500} height={300}></img>
+        <img src={cloth3}  width={500} height={300} alt=''></img>
       <h3> puma</h3>
       <h2>specification</h2>
         <ul>

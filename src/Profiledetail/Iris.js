@@ -6,7 +6,7 @@ function Iris() {
   return (
     <div>
       
-      <img src={iris} alt='lava.iris' width={500} height={300}></img>
+      <img src={iris} alt='' width={500} height={300}></img>
       <h3> 9 prime</h3>
       <h2>specification</h2>
         <ul>

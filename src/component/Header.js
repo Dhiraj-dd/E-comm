@@ -10,18 +10,11 @@ function logout(){
 
 }
   return (
-    <div>
-     
- 
- {
+    <div> {
   
- !author2? <><Link to='login'>signup</Link></>:
-!author1?<> <Link to='login1'>login</Link></>
- 
- :
+ !author2?   <><Link to='login'>signup</Link> </>:
+author2 && !author1?<><Link to='login'>signup</Link> <br></br> <Link to='login1'>login</Link> <Link to='signout'>signout</Link></>:
 
-
- 
 <> 
 <ul className='link'>
 <li> <Link to='/profile'>profile</Link></li>
@@ -29,17 +22,11 @@ function logout(){
 <li> <Link to='/delete'>delete product</Link></li>
 <li> <Link to='/list'>list</Link></li>
 <li> <Link onClick={logout} to='login1'>logout</Link></li>
-<li> <Link to='signout'>signout</Link></li>
   </ul>
- </>
+ </> 
  }
-
- 
- 
- 
-   
-    </div>
-  )
+ </div>)
+  
 }
 
 export default Header

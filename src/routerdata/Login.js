@@ -11,9 +11,9 @@ import { useNavigate } from 'react-router-dom'
     let navigate = useNavigate()
     useEffect(()=>{
 let author = localStorage.getItem('user')
-if(author){
-  navigate('/login1')
-}
+//if(author){
+  //navigate('/login1')
+//}
 
     })
      

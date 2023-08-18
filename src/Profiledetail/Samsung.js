@@ -7,7 +7,7 @@ function Samsung() {
   return (
     <div>
      <h3>S 22</h3>
-        <img src={s22} alt='s22.samsung' width={600} height={400}></img>
+        <img src={s22} alt='' width={600} height={400}></img>
         <h2>specification</h2>
         <ul>
             <li>    ram : 4gb</li>

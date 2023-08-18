@@ -7,11 +7,11 @@ function Clothing() {
     <div className='product'>
     <ul>
      <li><h4><Link to='/Profiledetail/Formal'>view </Link>
-     <img src={cloth2} width={200} height={200}></img>
+     <img src={cloth2} width={200} height={200} alt=''></img>
      </h4>
      </li>
      <li><h4><Link to='/Profiledetail/Casual'>view </Link>
-     <img src={cloth3} width={200} height={200}></img>
+     <img src={cloth3} width={200} height={200} alt=''></img>
      </h4>
      </li>
     

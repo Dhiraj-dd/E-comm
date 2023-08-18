@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Fila() {
   return (
     <div>
-      <img src={shoes2}  width={500} height={300}></img>
+      <img src={shoes2}  width={500} height={300} alt=''></img>
       <h3> fila</h3>
       <h2>specification</h2>
         <ul>

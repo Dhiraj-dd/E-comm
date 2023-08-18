@@ -11,19 +11,19 @@ function Footware() {
  <div className='product'>
     <ul>
      <li><h4><Link to='/Profiledetail/Reebok'>view Reebook</Link>
-     <img src={shoes1} width={200} height={200}></img>
+     <img src={shoes1} width={200} height={200} alt=''></img>
      </h4>
      </li>
      <li><h4><Link to='/Profiledetail/Fila'>view fila</Link>
-     <img src={shoes2} width={200} height={200}></img>
+     <img src={shoes2} width={200} height={200} alt=''></img>
      </h4>
      </li>
      <li><h4><Link to='/Profiledetail/Puma'>view puma </Link>
-     <img src={shoes3} width={200} height={200}></img>
+     <img src={shoes3} width={200} height={200} alt=''></img>
      </h4>
      </li>
      <li><h4><Link to='/Profiledetail/Adidas'>view adidas</Link>
-     <img src={shoes4} width={200} height={200}></img>
+     <img src={shoes4} width={200} height={200} alt=''></img>
      </h4>
      </li>
 </ul>

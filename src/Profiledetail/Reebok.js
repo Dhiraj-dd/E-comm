@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Reebok() {
   return (
     <div>
-       <img src={shoes1}  width={500} height={300}></img>
+       <img src={shoes1}  width={500} height={300} alt=''></img>
       <h3> Reebook </h3>
       <h2>specification</h2>
         <ul>
