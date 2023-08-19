@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-    <BrowserRouter basename='my-project'>
+    <BrowserRouter basename='/'>
     <Header/>
 <Routes>
 <Route element={<Hide/>} >
