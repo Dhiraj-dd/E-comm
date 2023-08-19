@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-    <BrowserRouter basename='e-comm'>
+    <BrowserRouter basename='/e-comm'>
     <Header/>
 <Routes>
 <Route element={<Hide/>} >
